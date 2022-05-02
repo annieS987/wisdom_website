@@ -71,6 +71,201 @@ li a:hover {
     color:white;
 }
 
+
+/*--------------Login-------------------*/
+.login_container{
+    /* background: url('jack-finnigan-M9EctVUPrp4-unsplash.jpg') no-repeat center center fixed; */
+
+    height: 640px;
+    /* background-color: #f3e6f7; */
+    /* padding: 50px; */
+    /* background-color: azure; */
+}
+
+.login_form{
+    width: 540px;
+    height: 540px;
+    /* border: 2px solid red; */
+    margin:20px auto;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.login_form_header p{
+    font-size: 28px;
+    font-weight: bold;
+    color:#864a98;
+    text-align: center;
+    padding: 40px; 
+}
+
+.login_form input{
+    /* padding: 10px; */
+    height: 50px;
+    width: 360px;
+    border: 0px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    /* margin-bottom: 10px; */
+}
+.login_confirm button{
+    height: 44px;
+    width: 240px;
+    background-color: #bfa0c8;
+    color: white;
+    border: 0px;
+    margin-top: 45px;
+    font-size: 18px;
+    border-radius: 5px;
+
+
+}
+.login_create button{
+    height: 44px;
+    width: 240px;
+    background-color: #bfa0c8;
+    border: 0px;
+    margin-top: 20px;
+    font-size: 18px;
+    color:white;
+    margin-bottom: 40px;
+    border-radius: 5px;
+
+}
+
+#hint_text{
+    margin-top: 20px;
+}
+#hint_text p{
+    color: #bfbfbf;
+}
+
+
+/*-------------Signup-----------------*/
+
+.singup_container{
+    /* background: url('jack-finnigan-M9EctVUPrp4-unsplash.jpg') no-repeat center center fixed; */
+
+    height: 1000px;
+    /* background-color: #f3e6f7; */
+    /* padding: 50px; */
+    /* background-color: azure; */
+}
+.singup_form{
+    width: 600px;
+    height: 800px;
+    /* border: 2px solid red; */
+    margin:20px auto;
+    padding-top: 40px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.singup_form p{
+    font-size: 18px;
+    font-weight: bold;
+    color:#864a98;
+    text-align: center;
+
+}
+
+.singup_form input{
+    /* padding: 10px; */
+    height: 50px;
+    width: 350px;
+    border: 0px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.singup_form select {
+    height: 50px;
+    width: 360px;
+    border: none;
+    margin-top: 10px;
+    font-size: var(--fs-400);
+    border-radius: 5px;
+
+}
+.singup_create button{
+    height: 44px;
+    width: 360px;
+    background-color: #bfa0c8;
+    border: 0px;
+    margin-top: 40px;
+    font-size: 18px;
+    color:white;
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+}
+
+
+/*--------------Home------------------*/
+
+#home_login_btn{
+    height: 100px;
+    width: 800px;
+    margin-left: 26%;
+    margin-top: 4%;
+}
+#home_login_btn_table{
+    width: 540px;
+    padding-top: 4%;
+    margin-left: 36%;
+}
+#home_login_btn{
+    width: 200px;
+    height: 40px;
+    color: #864a98;
+    border: 0px;
+}
+#home_facility{
+    background-color: #f3f3f3;
+    height: 300px;
+    width: 800px;
+    margin-left: 26%;
+    margin-top: 6%;
+}
+
+#home_facility_table{
+    width: 540px;
+    padding-top: 4%;
+}
+#home_facility_table td{
+    width: 300px;
+}
+
+#home_facility_pic{
+    width: 150px;
+    padding-left: 54%;
+    padding-top: 26%;
+}
+#home_facility_btn_div{
+    width: 240px;
+    height: 60px;
+    padding-left: 44%;
+    padding-top: 10%;
+}
+
+#home_facility_btn{
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: 0px;
+    background-color: #bfa0c8;
+}
+#home_facility_content{
+    width: 400px;
+    padding-left: 44%;
+    padding-top: 6%;
+}
+
 /*--------------About------------------*/
 
 #title_about{
