@@ -1,0 +1,404 @@
+#logo_and_title{
+    width: 400px;
+    height: 120px;
+    text-align: center;
+    padding-left: 37%;
+    padding-top: 2%;
+}
+/*-----------Navigator---------*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 18%;
+    overflow: hidden;
+    background-color: white;
+}
+ 
+li {
+    float: left;
+}
+ 
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+    background-color: white;
+}
+li a:hover {
+    color: #a777b5;
+}
+
+
+/*----------*/
+
+#intro{
+    width: auto;
+    height: 600px;
+    background-color:#e8dded;
+}
+#intro_text{
+    width: 540px;
+    height: 300px;
+    background-color: #f3e6f7;
+}
+
+#learn_more{
+    font-weight: bold;
+    color:black;
+}
+#learn_more:hover{
+    color:#a777b5;
+}
+
+
+/*--------------Connect Bar------------*/
+#connect_bar{
+    height: 260px;
+    background-color: #bfa0c8;
+}
+
+#connect_bar_title{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color:white;
+    padding-top: 4%;
+}
+#connect_bar_content{
+    text-align: center;
+    color:white;
+}
+
+/*--------------About------------------*/
+
+#title_about{
+    width: auto;
+    height: 100px;
+    background-color:#e8dded;
+}
+
+#title_about_content{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding-top: 1.5%;
+}
+#about_content_title{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color:#864a98;
+    padding-top: 3%;
+}
+#about_content_paragraph{
+    text-align: center;
+    width: 800px;
+    padding-left: 26%;
+    padding-top: 1.5%;
+}
+#mission_title{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color:#864a98;
+    padding-top: 4%;
+}
+#mission_table{
+    padding-left: 22%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+#mission_button{
+    width: 160px;
+    height: 40px;
+    color: white;
+    border: 0px;
+    background-color: #bfa0c8;
+}
+
+/*--------------Sponsors---------------*/
+#title_sponsors{
+    width: auto;
+    height: 100px;
+    background-color:#e8dded;
+}
+
+#title_sponsors_content{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding-top: 1.5%;
+}
+#sponsors_content_title{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color:#864a98;
+    padding-top: 3%;
+}
+#sponsors_content_paragraph{
+    text-align: center;
+    width: 800px;
+    padding-left: 26%;
+    padding-top: 1.5%;
+}
+
+#sponsors_rotaryclub{
+    background-color: #f3f3f3;
+    height: 400px;
+    width: 800px;
+    margin-left: 26%;
+    margin-top: 6%;
+}
+
+#sponsors_rotaryclub_table{
+    width: 540px;
+    padding-top: 4%;
+}
+#sponsors_rotaryclub_table td{
+    width: 300px;
+}
+
+#sponsors_rotaryclub_pic{
+    width: 150px;
+    padding-left: 54%;
+    padding-top: 40%;
+}
+#sponsors_rotaryclub_btn_div{
+    width: 160px;
+    height: 60px;
+    padding-left: 44%;
+    padding-top: 6%;
+}
+
+#sponsors_rotaryclub_btn{
+    width: 160px;
+    height: 40px;
+    color: white;
+    border: 0px;
+    background-color: #bfa0c8;
+}
+#sponsors_rotaryclub_title{
+    width: 270px;
+    color:#864a98;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 68%;
+    padding-top: 8%;
+}
+#sponsors_rotaryclub_content{
+    width: 400px;
+    padding-left: 44%;
+}
+
+#sponsors_bakermckenzie{
+    background-color: #f3f3f3;
+    height: 400px;
+    width: 800px;
+    margin-left: 26%;
+    margin-top: 4%;
+}
+#sponsors_bakermckenzie_table{
+    width: 540px;
+    padding-top: 4%;
+    padding-right: 4%;
+}
+#sponsors_bakermckenzie_table td{
+    width: 300px;
+}
+#sponsors_bakermckenzie_pic{
+    width: 150px;
+    padding-left: 54%;
+    padding-top: 20%;
+}
+#sponsors_bakermckenzie_btn_div{
+    width: 160px;
+    height: 60px;
+    padding-left: 44%;
+    padding-top: 6%;
+}
+
+#sponsors_bakermckenzie_btn{
+    width: 160px;
+    height: 40px;
+    color: white;
+    border: 0px;
+    background-color: #bfa0c8;
+}
+#sponsors_bakermckenzie_title{
+    width: 270px;
+    color:#864a98;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 58%;
+    padding-top: 8%;
+}
+#sponsors_bakermckenzie_content{
+    width: 400px;
+    padding-left: 44%;
+}
+
+#sponsors_anu{
+    background-color: #f3f3f3;
+    height: 400px;
+    width: 800px;
+    margin-left: 26%;
+    margin-top: 4%;
+}
+#sponsors_anu_table{
+    width: 540px;
+    padding-top: 4%;
+    padding-right: 4%;
+}
+#sponsors_anu_table td{
+    width: 300px;
+}
+#sponsors_anu_pic{
+    width: 150px;
+    padding-left: 54%;
+    padding-top: 20%;
+}
+#sponsors_anu_btn_div{
+    width: 160px;
+    height: 60px;
+    padding-left: 44%;
+    padding-top: 6%;
+}
+
+#sponsors_anu_btn{
+    width: 160px;
+    height: 40px;
+    color: white;
+    border: 0px;
+    background-color: #bfa0c8;
+}
+#sponsors_anu_title{
+    width: 270px;
+    color:#864a98;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 80%;
+    padding-top: 8%;
+}
+#sponsors_anu_content{
+    width: 400px;
+    padding-left: 44%;
+}
+
+
+/*----------------contact--------------*/
+
+#title_contact{
+    width: auto;
+    height: 100px;
+    background-color:#e8dded;
+}
+
+#title_contact_content{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding-top: 1.5%;
+}
+
+#contact_content{
+    height: 400px;
+}
+#contact_content_title{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color:#864a98;
+    padding-top: 3%;
+}
+#contact_content_paragraph{
+    text-align: center;
+    width: 800px;
+    padding-left: 26%;
+    padding-top: 1.5%;
+    padding-bottom: 3%;
+}
+
+
+/*------------loneliness------------*/
+
+#title_loneliness{
+    width: auto;
+    height: 100px;
+    background-color:#e8dded;
+}
+
+#title_loneliness_content{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding-top: 1.5%;
+}
+#loneliness_content_title{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color:#864a98;
+    padding-top: 3%;
+}
+#loneliness_content_paragraph{
+    width: 800px;
+    padding-left: 26%;
+    padding-top: 1.5%;
+    padding-bottom: 3%;
+}
+
+/*--------------wisdom----------------*/
+
+#title_wisdom{
+    width: auto;
+    height: 100px;
+    background-color:#e8dded;
+}
+
+#title_wisdom_content{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding-top: 1.5%;
+}
+#wisdom_content_title{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color:#864a98;
+    padding-top: 3%;
+}
+#wisdom_content_paragraph{
+    width: 800px;
+    padding-left: 26%;
+    padding-top: 1.5%;
+    padding-bottom: 3%;
+}
+
+/*--------------FAQ----------------*/
+
+#title_FAQ{
+    width: auto;
+    height: 100px;
+    background-color:#e8dded;
+}
+
+#title_FAQ_content{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding-top: 1.5%;
+}
+
+#FAQ_content{
+    height: 400px;
+}
