@@ -1,0 +1,196 @@
+:root {
+    --clr-purple:rgb(191,160,201);
+    --clr--pink:#f8dbd5;
+
+    --fs-900: 9.375rem;
+    --fs-800: 6.25rem;
+    --fs-700: 3.5rem;
+    --fs-600: 2rem;
+    --fs-500: 1.75rem;
+    --fs-400: 1.425rem;
+    --fs-300: 1rem;
+    --fs-200: 0.875rem;
+
+    --ff-serif: "Bellefair", serif;
+    --ff-sans-cond: "Barlow Condensed", sans-serif;
+    --ff-sans-normal: "Barlow", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom:1;
+}
+
+body{
+    /* background-image: linear-gradient(to right,#f3e6f7,#f8dbd5); */
+    /* background-size: 100% 100%; */
+    height: 800px;
+    width: 100%;
+    background-image: url('../image/jack-finnigan-M9EctVUPrp4-unsplash_gaitubao_1988x1244.jpg');
+    /* background-image: url('../image/20191649901424_.pic_hd.jpg'); */
+
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    /* filter: url('../image/jack-finnigan-M9EctVUPrp4-unsplash_gaitubao_1988x1244.jpg');
+
+    filter: grayscale(50%); */
+}
+
+.header{
+    /* position: sticky; */
+    /* top: 0; */
+    margin: 0px auto;
+    width: 1500px;
+    margin-top: 10px;
+    
+}
+.header_left{
+    /* border: 2px solid red; */
+    height: 70px;
+    /* width: 292px; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    font-size:29px;
+    text-indent: 4em;
+    color: white;
+    /* text-align: right; */
+    line-height: 70px;
+    background-image: url(../image/WechatIMG2010.png);
+    background-size: 100px 70px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    float: left;
+    /* margin-top: 50px; */
+
+}
+.header ul {
+    float: right;
+    height: 70px;
+    /* width: 800px; */
+    line-height: 70px;
+    margin-right: 100px;
+}
+.header ul li {
+    float: left;
+    list-style: none;
+    padding-left: 30px;
+    /* width: 40px; */
+}
+.header ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.header ul li a:hover{
+    color: var(--clr-purple);
+}
+.header_right{
+    margin-left: 30px;
+}
+
+.content{
+    /* margin-top: 70px; */
+    width: 500px;
+    height: 820px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.content p{
+    font-size: 70px;
+    font-family: var(--ff-serif);
+    text-align: center;
+    margin-top: 130px;
+    color: white;
+}
+
+.content button{
+    height: 50px;
+    width: 370px;
+    /* background-color: rgba(191,160,201, 0.7); */
+
+    border: none;
+    margin-top: 20px;
+    font-family: var(--ff-serif);
+    font-size: var(--fs-400);
+    border-radius: 10px;
+    margin-top: 40px;
+
+
+}
+.content button:hover{
+    background-color: rgba(191,160,201, 0.7);
+}
+
+.pages{
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+}
+.page{
+    height: 230px;
+    width: 700px;
+    background-color: rgb(249, 249, 249);
+
+    margin: 20px auto;
+    background-image: url(../image/flower1_gaitubao_190x194.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.page p{
+    width: 509px;
+    margin-left: 191px;
+    font-size: var(--fs-400);
+    padding-top: 80px;
+    text-align: center;
+    
+}
+
+.page button{
+    height: 30px;
+    width: 170px;
+    background-color: rgba(191,160,201, 0.7);
+    border: none;
+    margin-top: 20px;
+    font-family: var(--ff-serif);
+    font-size: var(--fs-300);
+    border-radius: 10px;
+    margin-left: 370px;
+    color: white;
+
+    /* padding-top: 10px; */
+    /* padding-left: 100px; */
+    /* float: right; */
+}
+
+.page button:hover{
+    background-color: rgba(86, 123, 180, 0.7);
+}
+.footer{
+    height: 300px;
+    background-color: var(--clr-purple);
+}
+.footer p{
+    /* background-color: #f8dbd5; */
+    text-align: center;
+    color: white;
+    font-size: var(--fs-600);
+    font-family: var(--ff-sans-normal);
+    padding-top: 30px;
+}
+
+

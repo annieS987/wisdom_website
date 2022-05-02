@@ -1,0 +1,126 @@
+:root {
+    --clr-purple:rgb(191,160,201);
+    --clr--pink:#f8dbd5;
+
+    --fs-900: 9.375rem;
+    --fs-800: 6.25rem;
+    --fs-700: 3.5rem;
+    --fs-600: 2rem;
+    --fs-500: 1.75rem;
+    --fs-400: 1.525rem;
+    --fs-300: 1rem;
+    --fs-200: 0.875rem;
+
+    --ff-serif: "Bellefair", serif;
+    --ff-sans-cond: "Barlow Condensed", sans-serif;
+    --ff-sans-normal: "Barlow", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image: linear-gradient(to right,#f3e6f7,#f8dbd5); */
+    /* background-size: 100% 100%; */
+    height: 800px;
+    width: 100%;
+    /* background: url('/images/jack-finnigan-M9EctVUPrp4-unsplash.jpg') no-repeat; */
+    background-size: 100%;
+
+}
+.container{
+    /* background: url('jack-finnigan-M9EctVUPrp4-unsplash.jpg') no-repeat center center fixed; */
+
+    height: 600px;
+    /* background-color: #f3e6f7; */
+    /* padding: 50px; */
+    /* background-color: azure; */
+}
+
+.header{
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 292px;
+    margin: 0 auto;
+    /* text-align: center; */
+    font-size:19px;
+    text-align: right;
+    line-height: 70px;
+    background-image: url(../image/WechatIMG2010.png);
+    background-size: 100px 70px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-top: 50px;
+
+}
+
+.form{
+    width: 400px;
+    height: 420px;
+    /* border: 2px solid red; */
+    margin:20px auto;
+    background-color: var(--clr-purple);
+    text-align: center;
+    border-radius: 5px;
+
+}
+.form_header{
+    font-family:var(--ff-serif);
+    font-size: var(--fs-400);
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.form input{
+    /* padding: 10px; */
+    height: 50px;
+    width: 360px;
+    margin: 10px auto 0px;
+    border: none;
+    padding-left: 10px;
+    font-size: var(--fs-400);
+    border-radius: 10px;
+
+    /* margin-bottom: 10px; */
+    
+}
+.confirm button{
+    height: 50px;
+    width: 370px;
+    background-color: #f8dbd5;
+    border: none;
+    margin-top: 20px;
+    font-family: var(--ff-serif);
+    font-size: var(--fs-400);
+    border-radius: 10px;
+
+
+}
+.create button{
+    height: 50px;
+    width: 250px;
+    background-color: #f8f8d5;
+    border: none;
+    margin-top: 20px;
+    font-family: var(--ff-serif);
+    font-size: var(--fs-400);
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.footer{
+    height: 500px;
+    background-color: var(--clr-purple);
+}
+.footer p{
+    text-align: center;
+    color: white;
+    font-size: var(--fs-600);
+    font-family: var(--ff-sans-normal);
+    padding-top: 30px;
+}
+
+
