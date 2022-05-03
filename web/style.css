@@ -597,3 +597,221 @@ li a:hover {
 #FAQ_content{
     height: 400px;
 }
+
+
+
+/*------------APP---------------*/
+
+/*------------Profiles---------------*/
+.profiles_container{
+    /* background: url('jack-finnigan-M9EctVUPrp4-unsplash.jpg') no-repeat center center fixed; */
+
+    height: 1000px;
+    /* background-color: #f3e6f7; */
+    /* padding: 50px; */
+    /* background-color: azure; */
+}
+
+.profiles_form{
+    width: 540px;
+    height: 880px;
+    /* border: 2px solid red; */
+    margin:20px auto;;
+    text-align: center;
+    border:solid 2px;
+    border-color:#864a98;
+    border-radius: 5px;
+}
+.profiles_form_header p{
+    font-size: 28px;
+    font-weight: bold;
+    color:#864a98;
+    text-align: center;
+    padding: 40px; 
+}
+
+.profiles_display{
+    height: 480px;
+    width: 400px;
+    margin-left: 70px;
+    border:dotted;
+    border-radius: 5px;
+    border-width:2px;
+    border-color: #864a98;
+}
+
+.profiles_display_content{
+    width: 400px;
+    height: 120px;
+    background-color:#f3f3f3;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+.profiles_display_content img{
+    width: 100px;
+    height: 100px;
+}
+
+.profiles_display_content td{
+    width: 240px;
+    height: 120px;
+}
+
+.profiles_display_content p{
+    font-size: 18px;
+    color:#864a98;
+    font-weight: bold;
+}
+
+
+
+
+
+.profiles_create button{
+    height: 44px;
+    width: 240px;
+    background-color: #bfa0c8;
+    color: white;
+    border: 0px;
+    margin-top: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.profiles_logout button{
+    height: 44px;
+    width: 240px;
+    background-color: #bfa0c8;
+    border: 0px;
+    margin-top: 20px;
+    font-size: 18px;
+    color:white;
+    margin-bottom: 40px;
+    border-radius: 5px;
+
+}
+
+/*------------AddProfiles---------------*/
+
+.addprofiles_container{
+    /* background: url('jack-finnigan-M9EctVUPrp4-unsplash.jpg') no-repeat center center fixed; */
+
+    height: 1300px;
+    /* background-color: #f3e6f7; */
+    /* padding: 50px; */
+    /* background-color: azure; */
+}
+
+.addprofiles_form{
+    width: 540px;
+    height: 1160px;
+    /* border: 2px solid red; */
+    margin:20px auto;
+    border:solid 2px;
+    border-color: #864a98;
+    text-align: center;
+    border-radius: 5px;
+}
+.addprofiles_form_title{
+    font-size: 28px;
+    font-weight: bold;
+    color:#864a98;
+    text-align: center;
+    padding: 10px; 
+}
+.addprofiles_upload_table{
+    height: 120px;
+}
+.addprofiles_upload_img{
+    height: 120px;
+    width: 120px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border:dotted;
+    border-radius: 5px;
+    border-width:2px;
+    border-color: #a777b5;
+}
+.addprofiles_upload_img img{
+    height: 55px;
+    width: 60px;
+    padding-top: 30px;
+}
+#addprofiles_upload_input{
+    height: 40px;
+    width: 240px;
+    border: dotted 2px;
+    border-color: #a777b5;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.addprofiles_interests_table{
+    margin-left: 50px;
+
+}
+
+.addprofiles_interests_table tr{
+    width: 480px;
+    height: 80px;
+}
+
+.addprofiles_interests_table td{
+    width: 140px;
+    height: 120px;
+}
+.addprofiles_interests_table img{
+    width: 120px;
+    height: 120px;
+}
+
+#addprofiles_interests_tag p{
+    font-size: 14px;
+}
+
+.addprofiles_interests_btn_table{
+    width: 400px;
+    height: 60px;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.addprofiles_interests_btn_table td{
+    width: 240px;
+    height: 60px;
+    margin-left: 50px;
+}
+
+.addprofiles_interests_btn_table button{
+    width: 160px;
+    height: 30px;
+    color: #864a98;
+    border: solid 1px;
+    border-color: #864a98;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+}
+
+
+.addprofiles_add button{
+    height: 44px;
+    width: 240px;
+    background-color: #bfa0c8;
+    color: white;
+    border: 0px;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+/* .addprofiles_logout button{
+    height: 44px;
+    width: 240px;
+    background-color: #bfa0c8;
+    border: 0px;
+    margin-top: 20px;
+    font-size: 18px;
+    color:white;
+    margin-bottom: 40px;
+    border-radius: 5px;
+
+} */
