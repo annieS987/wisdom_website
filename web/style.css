@@ -70,7 +70,12 @@ li a:hover {
     text-align: center;
     color:white;
 }
-
+#connect_bar_content a:link{
+    color:white;
+}
+#connect_bar_content a:hover{
+    color:#864a98;
+}
 
 /*--------------Login-------------------*/
 .login_container{
@@ -155,7 +160,7 @@ li a:hover {
 }
 .singup_form{
     width: 600px;
-    height: 800px;
+    height: 880px;
     /* border: 2px solid red; */
     margin:20px auto;
     padding-top: 40px;
@@ -169,9 +174,11 @@ li a:hover {
     font-weight: bold;
     color:#864a98;
     text-align: center;
-
 }
-
+#hint_text{
+    font-size: 18px;
+    color:#bfbfbf;
+}
 .singup_form input{
     /* padding: 10px; */
     height: 50px;
@@ -208,21 +215,17 @@ li a:hover {
 
 /*--------------Home------------------*/
 
-#home_login_btn{
+#home_login_btn_div{
     height: 100px;
     width: 800px;
-    margin-left: 26%;
+    margin-left: 44%;
     margin-top: 4%;
-}
-#home_login_btn_table{
-    width: 540px;
-    padding-top: 4%;
-    margin-left: 36%;
 }
 #home_login_btn{
     width: 200px;
     height: 40px;
-    color: #864a98;
+    color:white;
+    background-color: #864a98;
     border: 0px;
 }
 #home_facility{
@@ -230,7 +233,8 @@ li a:hover {
     height: 300px;
     width: 800px;
     margin-left: 26%;
-    margin-top: 6%;
+    margin-top: 4%;
+    margin-bottom: 2%;
 }
 
 #home_facility_table{
@@ -598,6 +602,40 @@ li a:hover {
     height: 400px;
 }
 
+
+/*--------------Donate----------------*/
+
+#title_donate{
+    width: auto;
+    height: 100px;
+    background-color:#e8dded;
+}
+
+#title_donate_content{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding-top: 1.5%;
+}
+
+#donate_content{
+    height: 300px;
+}
+
+#donate_btn_div{
+    height: 100px;
+    width: 800px;
+    margin-left: 44%;
+    margin-top: 10%;
+}
+#donate_btn{
+    width: 200px;
+    height: 40px;
+    color:white;
+    background-color: #864a98;
+    border: 0px;
+}
 
 
 /*------------APP---------------*/
