@@ -20,7 +20,7 @@
 
     <div class="login_container">        
         <div class="login_form">
-            <div class="login_form_header"><p>Facility Login</p></div>
+            <div class="login_form_header"><p>Welcome to Wisdom Connect!</p></div>
 
             <div class="login_account" style="margin-bottom:10px ;">
                 <input type="input" placeholder="Username" id="input1">
@@ -28,14 +28,15 @@
             <div class="login_password">
                 <input type="password" placeholder="Password" id="input2">
             </div>
-            <div class="login_confirm">
-                <a href="resident_login.html"><button id="login_btn"> Facility Login</button></a>
-            </div>
-            <div class="login_create">
-                <button id="b2">Facility Signup</button>
+
+            <div class="login_facility_confirm">
+                <a href="profiles.html"><button id="login_btn"> Facility Login</button></a>
                 <hr>
                 <a href="javascript:" style="text-decoration: none;"><div id="hint_text"><p>Forgotten account?</p></div></a>
             </div>
+            <!-- <div class="login_create">
+                <button id="b2">Facility Signup</button>
+            </div> -->
 
         </div>
 
@@ -43,30 +44,10 @@
 
 
     <script>
-        const data = {username:'eric',password:'12345678'}
-        console.log(data['username'])
+        let reset_text = document.querySelector('#hint_text')
 
-        console.log(data['password'])
-        let input1 = document.querySelector('#input1')
-        let input2 = document.querySelector('#input2')
-        let btn1 = document.querySelector('#b1')
-        let btn2 = document.querySelector('#b2')
-
-        btn2.onclick = function(){
-            console.log('ddddd')
-            window.location.href='./signup.html'
-        }
-
-        btn1.onclick = function(){
-            // console.log(input1.value)
-            let username = input1.value
-            let password = input2.value
-            if(username === data['username'] && password === data['password']){
-                window.location.href='http://www.google.com'
-            }else{
-                alert('wrong username or password')
-                input2.value = ''
-            }
+        reset_text.onclick = function(){
+            window.location.href='reset_psw.html'
         }
 
     </script>

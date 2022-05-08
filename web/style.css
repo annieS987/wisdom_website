@@ -86,17 +86,35 @@ li a:hover {
     /* padding: 50px; */
     /* background-color: azure; */
 }
+.login_main_form{
+    width: 540px;
+    height: 540px;
+    margin:180px auto;
+    /* background-color: #f3f3f3; */
+    text-align: center;
+    border-radius: 5px;
+    border: solid 2px;
+    border-color: #864a98;
+
+}
 
 .login_form{
     width: 540px;
     height: 540px;
-    /* border: 2px solid red; */
     margin:20px auto;
     background-color: #f3f3f3;
     text-align: center;
     border-radius: 5px;
-
 }
+
+#login_logo_and_title{
+    width: 400px;
+    height: 120px;
+    text-align: center;
+    padding-left: 22%;
+    padding-top: 12%;
+}
+
 .login_form_header p{
     font-size: 28px;
     font-weight: bold;
@@ -113,8 +131,35 @@ li a:hover {
     padding-left: 10px;
     font-size: 18px;
     border-radius: 5px;
+    outline-color: #bfa0c8;
     /* margin-bottom: 10px; */
 }
+
+.login_facility_login button{
+    height: 44px;
+    width: 240px;
+    background-color: #bfa0c8;
+    color: white;
+    border: 0px;
+    /* margin-top: 45px; */
+    margin-top: 140px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.login_facility_signup button{
+    height: 44px;
+    width: 240px;
+    background-color: #bfa0c8;
+    border: 0px;
+    margin-top: 20px;
+    font-size: 18px;
+    color:white;
+    margin-bottom: 40px;
+    border-radius: 5px;
+
+}
+
+
 .login_confirm button{
     height: 44px;
     width: 240px;
@@ -124,8 +169,6 @@ li a:hover {
     margin-top: 45px;
     font-size: 18px;
     border-radius: 5px;
-
-
 }
 .login_create button{
     height: 44px;
@@ -146,8 +189,25 @@ li a:hover {
 #hint_text p{
     color: #bfbfbf;
 }
+#hint_text p:hover{
+    color:#864a98;
+}
 
+.login_agreement input{
 
+}
+
+.login_facility_confirm button{
+    height: 44px;
+    width: 240px;
+    background-color: #bfa0c8;
+    color: white;
+    border: 0px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+}
 /*-------------Signup-----------------*/
 
 .singup_container{
@@ -163,23 +223,32 @@ li a:hover {
     height: 880px;
     /* border: 2px solid red; */
     margin:20px auto;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     background-color: #f3f3f3;
     text-align: center;
     border-radius: 5px;
 
 }
-.singup_form p{
+/* .singup_form p{
     font-size: 18px;
     font-weight: bold;
     color:#864a98;
     text-align: center;
+} */
+
+.signup_form_header p{
+    font-size: 24px;
+    font-weight: bold;
+    color:#864a98;
+    text-align: center;
+    padding: 40px; 
 }
+
 #hint_text{
     font-size: 18px;
     color:#bfbfbf;
 }
-.singup_form input{
+/* .singup_form input{
     /* padding: 10px; */
     height: 50px;
     width: 350px;
@@ -189,7 +258,7 @@ li a:hover {
     border-radius: 5px;
     margin-bottom: 20px;
     
-}
+} */
 .singup_form select {
     height: 50px;
     width: 360px;
@@ -212,7 +281,137 @@ li a:hover {
 
 }
 
+.singup_facility_name{
+    padding-left: 12%;
+}
+.singup_facility_name td{
+    width: 100px;
+}
+.singup_facility_name p{
+    font-size: 18px;
+    font-weight: bold;
+    color:#864a98;
+    text-align: left;
+}
+.singup_facility_name input{
+    height: 50px;
+    width: 350px;
+    border: 0px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline-color: #bfa0c8;   
+}
 
+.singup_facility_address{
+    padding-left: 12%;
+}
+.singup_facility_address td{
+    width: 100px;
+}
+.singup_facility_address p{
+    font-size: 18px;
+    font-weight: bold;
+    color:#864a98;
+    text-align: left;
+}
+.singup_facility_address input{
+    height: 50px;
+    width: 350px;
+    border: 0px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline-color: #bfa0c8;   
+}
+
+.singup_facility_abn{
+    padding-left: 12%;
+}
+.singup_facility_abn td{
+    width: 100px;
+}
+.singup_facility_abn p{
+    font-size: 18px;
+    font-weight: bold;
+    color:#864a98;
+    text-align: left;
+}
+.singup_facility_abn input{
+    height: 50px;
+    width: 350px;
+    border: 0px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline-color: #bfa0c8;
+}
+
+
+.singup_facility_passcode{
+    padding-left: 12%;
+}
+.singup_facility_passcode td{
+    width: 100px;
+}
+.singup_facility_passcode p{
+    font-size: 18px;
+    font-weight: bold;
+    color:#864a98;
+    text-align: left;
+}
+.singup_facility_passcode input{
+    height: 50px;
+    width: 350px;
+    border: 0px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline-color: #bfa0c8;
+}
+
+
+.singup_facility_fastcode{
+    padding-left: 12%;
+}
+.singup_facility_fastcode td{
+    width: 100px;
+}
+.singup_facility_fastcode p{
+    font-size: 18px;
+    font-weight: bold;
+    color:#864a98;
+    text-align: left;
+}
+.singup_facility_fastcode input{
+    height: 50px;
+    width: 220px;
+    border: 0px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline-color: #bfa0c8;  
+}
+.singup_facility_fastcode button {
+    height: 44px;
+    width: 100px;
+    background-color: white;
+    border: solid 2px;
+    margin-left: 20px;
+    font-size: 18px;
+    color:#bfa0c8;
+    border-radius: 5px;
+}
+.singup_facility_fastcode button:active {
+    height: 44px;
+    width: 100px;
+    background-color: #bfa0c8;
+    border: solid 2px;
+    margin-left: 20px;
+    font-size: 18px;
+    color:white;
+    border-radius: 5px;
+}
 /*--------------Home------------------*/
 
 #home_login_btn_div{
