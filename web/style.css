@@ -867,6 +867,27 @@ li a:hover {
     padding: 40px; 
 }
 
+.profiles_display_container{
+    width: 510px;
+    overflow-y:auto;
+    height: 460px;
+}
+
+.profiles_display_container::-webkit-scrollbar{
+    width: 10px;
+}
+.profiles_display_container::-webkit-scrollbar-thumb{
+    background-color: #bfa0c8;
+    border-radius: 5px;
+}
+.profiles_display_container::-webkit-scrollbar-button{
+    display: none;
+}
+.profiles_display_container::-webkit-scrollbar-track{
+    background-color: #f3f3f3;
+}
+
+
 .profiles_display{
     height: 480px;
     width: 400px;
@@ -910,7 +931,7 @@ li a:hover {
     background-color: #bfa0c8;
     color: white;
     border: 0px;
-    margin-top: 50px;
+    margin-top: 70px;
     font-size: 18px;
     border-radius: 5px;
 }

@@ -22,8 +22,19 @@
         <div class="profiles_form">
             <div class="profiles_form_header"><p>Resident's Profiles</p></div>
 
-            <div class="profiles_display_container" style="overflow: scroll;height: 405px;">
+            <div class="profiles_display_container">
                 <!--------Table------>
+                <a href="javascript:">
+                    <div class="profiles_display_content">
+                        <table>
+                            <tr>
+                                <td><img src="./web/flower1.jpg"></td>
+                                <td><p>James</p></td>
+                            </tr>   
+                        </table>
+                    </div>
+                </a>
+
                 <div class="profiles_display_content">
                     <table>
                         <tr>
@@ -32,14 +43,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="profiles_display_content">
-                    <table>
-                        <tr>
-                            <td><img src="./web/flower1.jpg"></td>
-                            <td><p>James</p></td>
-                        </tr>
-                    </table>
-                </div>
+
                 <div class="profiles_display_content">
                     <table>
                         <tr>
@@ -81,6 +85,15 @@
         </div>
 
     </div>
+
+    <script>
+        let get_profile = document.querySelector('#profiles_display_content')
+
+        reset_text.onclick = function(){
+            window.location.href='reset_psw.html'
+        }
+
+    </script>
 
 </body>
 
