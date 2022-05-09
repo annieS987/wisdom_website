@@ -912,7 +912,7 @@ li a:hover {
 }
 
 .profiles_display_content td{
-    width: 240px;
+    width: 180px;
     height: 120px;
 }
 
@@ -1021,16 +1021,17 @@ li a:hover {
 }
 
 .myprofile_display_content td{
-    width: 240px;
+    width: 180px;
     height: 120px;
 }
 
 .myprofile_talk_to_sb_new{
     width: 400px;
     height: 120px;
-    background-color:#f3f3f3;
+    background-color:#f3e6f7;
     margin-bottom: 10px;
     margin-left: 15px;
+    margin-top: 20px;
     cursor: pointer;
 }
 .myprofile_talk_to_sb_new img{
@@ -1039,12 +1040,12 @@ li a:hover {
 }
 
 .myprofile_talk_to_sb_new td{
-    width: 240px;
+    width: 180px;
     height: 120px;
 }
 
 .myprofile_talk_to_sb_new p{
-    font-size: 18px;
+    font-size: 16px;
     color:#864a98;
     font-weight: bold;
 }
@@ -1406,7 +1407,7 @@ li a:hover {
 }
 
 .blockedlist_display_content td{
-    width: 240px;
+    width: 180px;
     height: 120px;
 }
 
@@ -2113,6 +2114,46 @@ li a:hover {
     border-radius: 5px;
 }
 
+/*--------------Video Call-----------------*/
+
+.comment_call_container{
+    /* background: url('jack-finnigan-M9EctVUPrp4-unsplash.jpg') no-repeat center center fixed; */
+
+    height: 800px;
+    /* background-color: #f3e6f7; */
+    /* padding: 50px; */
+    /* background-color: azure; */
+}
+
+.comment_call_form{
+    width: 540px;
+    height: 800px;
+    /* border: 2px solid red; */
+    margin:20px auto;
+    margin-top: 60px;
+    text-align: center;
+    border:solid 2px;
+    border-color:#864a98;
+    border-radius: 5px;
+}
+.comment_call_form_header p{
+    font-size: 28px;
+    font-weight: bold;
+    color:#864a98;
+    text-align: center;
+}
+
+
+#comment_call_submit_btn{
+    height: 44px;
+    width: 215px;
+    background-color: #bfa0c8;
+    color: white;
+    border: 0px;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+}
 
 /*------------Add Profiles---------------*/
 
