@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="./web/style.css">
+</head>
+
+<body>        
+    
+    <div id="logo_and_title">
+        <table>
+            <tr>
+                <td width="100px"><img  src="./web/logo.jpg" alt="logo" width="80px"></td>
+                <td><h1>Wisdom Connect</h1></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="rate_call_container">        
+        <div class="rate_call_form">
+            <div class="rate_call_form_header"><p>How was the call?</p></div>
+
+            <hr>
+
+
+            <div class="rate_call_radios">
+                <table>
+                    <tr>
+                        <td><input class="radio_type" id="radio1" type="radio" name="rate_call_radio" check="checked"/></td>
+                        <td><label for="radio1">It was great</label></td>
+                    </tr>
+
+                    <tr>
+                        <td><input class="radio_type" id="radio2" type="radio" name="rate_call_radio" /></td>
+                        <td><label for="radio2">It was okay</label></td>
+                    </tr>
+
+                    <tr>
+                        <td><input class="radio_type" id="radio3" type="radio" name="rate_call_radio" /></td>
+                        <td><label for="radio3">I don't like who I spoke to</label></td>
+                    </tr>
+
+                    <tr>
+                        <td><input class="radio_type" id="radio4" type="radio" name="rate_call_radio" /></td>
+                        <td><label for="radio4">I'd like to call someone else</label></td>
+                    </tr>
+
+                </table>
+            </div>
+
+
+            <div class="rate_call_submit">
+                <a href="my_profile.html"><button id="rate_call_submit_btn">Submit</button></a>
+            </div>
+
+            <div class="rate_call_comment">
+                <a href="comment_call.html"><button id="rate_call_comment_btn">I have a comment</button></a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        function talkToSbNew(){
+            window.location.href="my_profile.html";
+        }
+
+    </script>
+
+</body>
+
+</html>
