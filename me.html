@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Me</title>
+    <link rel="stylesheet" href="./web/style.css">
+</head>
+
+<body>        
+    
+    <div id="logo_and_title">
+        <table>
+            <tr>
+                <td width="100px"><img  src="./web/logo.jpg" alt="logo" width="80px"></td>
+                <td><h1>Wisdom Connect</h1></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="me_container">        
+        <div class="me_form">
+            <div class="me_form_header"><p>Me</p></div>
+            <hr>
+
+            <div class="me_display_container">
+                <!--------Table------>
+                <div class="me_profile" onclick = "changeProfile()">
+                    <table>
+                        <tr>
+                            <td><img src="./web/flower1.jpg"></td>
+                            <td><p>James</p></td>
+                        </tr>   
+                    </table>
+                </div>
+
+                <div class="me_display_content" onclick="toInterests()">
+                    <p>Interests</p>
+                </div>
+
+                <div class="me_display_content"  onclick="toBlockedList()">
+                    <p>Blocked Lists</p>
+                </div>
+
+                <div class="me_display_content" onclick="logout()">
+                    <p style="color: white;">Logout</p>
+                </div>
+            </div>
+
+            <div class="me_switch">
+                <table>
+                    <tr>
+                        <td><a href="addprofiles.html"><button id="videocall_btn">Make a Video Call</button></a></td>
+                        <td><a href="me.html"><button id="me_btn">Me</button></a></td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script>
+        function changeProfile(){
+            window.location.href="edit_profile.html"
+        }
+        function toBlockedList(){
+            window.location.href="blocked_list.html"
+        }
+        function toInterests(){
+            window.location.href="interests.html"
+        }
+        function logout(){
+            window.location.href="facility_login.html";
+        }
+
+    </script>
+
+</body>
+
+</html>

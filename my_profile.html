@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Select Profiles</title>
+    <title>My Profile</title>
     <link rel="stylesheet" href="./web/style.css">
 </head>
 
@@ -18,22 +18,27 @@
         </table>
     </div>
 
-    <div class="profiles_container">        
-        <div class="profiles_form">
-            <div class="profiles_form_header"><p>Resident's Profiles</p></div>
+    <div class="myprofile_container">        
+        <div class="myprofile_form">
+            <div class="myprofile_form_header"><p>Hi James!</p></div>
 
-            <div class="profiles_display_container">
+            <div class="myprofile_addfriend">
+                <input type="input" placeholder="add a friend"/></td>
+                <a href="javascript:"><button>Add</button></a></td>
+            </div>
+
+            <div class="myprofile_display_container">
                 <!--------Table------>
-                <div class="profiles_display_content" onclick = "toMyProfile()">
+                <div class="myprofile_talk_to_sb_new" onclick = "talkToSbNew()">
                     <table>
                         <tr>
                             <td><img src="./web/flower1.jpg"></td>
-                            <td><p>James</p></td>
+                            <td><p>Talk to someone new</p></td>
                         </tr>   
                     </table>
                 </div>
 
-                <div class="profiles_display_content">
+                <div class="myprofile_display_content">
                     <table>
                         <tr>
                             <td><img src="./web/flower1.jpg"></td>
@@ -42,7 +47,7 @@
                     </table>
                 </div>
 
-                <div class="profiles_display_content">
+                <div class="myprofile_display_content">
                     <table>
                         <tr>
                             <td><img src="./web/flower1.jpg"></td>
@@ -52,7 +57,7 @@
                 </div>
                 
                 <!--------Table------>
-                <div class="profiles_display_content">
+                <div class="myprofile_display_content">
                     <table>
                         <tr>
                             <td> <img src="./web/flower1.jpg"></td>
@@ -61,7 +66,7 @@
                     </table>
                 </div>
                 <!--------Table------>
-                <div class="profiles_display_content">
+                <div class="myprofile_display_content">
                     <table>
                         <tr>
                             <td> <img src="./web/flower1.jpg"></td>
@@ -71,12 +76,13 @@
                 </div>
             </div>
 
-            <div class="profiles_create">
-                <a href="addprofiles.html"><button id="create_btn">Create a new profile</button></a>
-            </div>
-
-            <div class="profiles_logout">
-                <a href="facility_login.html"><button id="logout_btn">Log out</button></a>
+            <div class="myprofile_switch">
+                <table>
+                    <tr>
+                        <td><a href="addprofiles.html"><button id="videocall_btn">Make a Video Call</button></a></td>
+                        <td><a href="me.html"><button id="me_btn">Me</button></a></td>
+                    </tr>
+                </table>
             </div>
 
 
@@ -85,9 +91,10 @@
     </div>
 
     <script>
-        function toMyProfile(){
-            window.location.href="my_profile.html";
+        function talkToSbNew(){
+            window.location.href="talk_my_interests.html";
         }
+
     </script>
 
 </body>

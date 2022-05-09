@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="./web/style.css">
+</head>
+
+<body>        
+    
+    <div id="logo_and_title">
+        <table>
+            <tr>
+                <td width="100px"><img  src="./web/logo.jpg" alt="logo" width="80px"></td>
+                <td><h1>Wisdom Connect</h1></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="edit_container">        
+        <div class="edit_form">
+            <div class="edit_form_header"><p>James</p></div>
+            <hr>
+
+            <div class="edit_display_container">
+                <!--------Table------>
+                <div class="edit_profile">
+                    <table>
+                        <tr>
+                            <td><img src="./web/flower1.jpg" onclick = "changeProfile()"></td>
+                            <td><p>Change your photo</p></td>
+                        </tr>   
+                    </table>
+                </div>
+                <div class="edit_name">
+                    <table>
+                        <tr>
+                            <td><input type="input" placeholder="Change your name"/></td>
+                            <td><a href="javascript:"><button>Save</button></a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="edit_switch">
+                <table>
+                    <tr>
+                        <td><a href="addprofiles.html"><button id="videocall_btn">Make a Video Call</button></a></td>
+                        <td><a href="me.html"><button id="me_btn">Me</button></a></td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script>
+        function changeProfile(){
+            window.location.href="change_profile.html"
+        }
+        function logout(){
+            window.location.href="facility_login.html";
+        }
+
+    </script>
+
+</body>
+
+</html>
