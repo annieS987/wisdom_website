@@ -145,7 +145,33 @@ li a:hover {
     margin-top: 140px;
     font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
 }
+.login_facility_login button:hover{
+    height: 44px;
+    width: 240px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    /* margin-top: 45px; */
+    margin-top: 140px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login_facility_login button:active{
+    height: 44px;
+    width: 240px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    /* margin-top: 45px; */
+    margin-top: 140px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .login_facility_signup button{
     height: 44px;
     width: 240px;
@@ -156,11 +182,35 @@ li a:hover {
     color:white;
     margin-bottom: 40px;
     border-radius: 5px;
-
+    cursor: pointer;
+}
+.login_facility_signup button:hover{
+    height: 44px;
+    width: 240px;
+    background-color:white; 
+    border: solid 2px #bfa0c8;
+    margin-top: 20px;
+    font-size: 18px;
+    color:#bfa0c8;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login_facility_signup button:active{
+    height: 44px;
+    width: 240px;
+    background-color:white; 
+    border: solid 2px #bfa0c8;
+    margin-top: 20px;
+    font-size: 18px;
+    color:#bfa0c8;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 
-.login_confirm button{
+/* .login_confirm button{
     height: 44px;
     width: 240px;
     background-color: #bfa0c8;
@@ -181,7 +231,7 @@ li a:hover {
     margin-bottom: 40px;
     border-radius: 5px;
 
-}
+} */
 
 #hint_text{
     margin-top: 20px;
@@ -191,10 +241,6 @@ li a:hover {
 }
 #hint_text p:hover{
     color:#864a98;
-}
-
-.login_agreement input{
-
 }
 
 .login_facility_confirm button{
@@ -207,6 +253,31 @@ li a:hover {
     margin-bottom: 70px;
     font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
+}
+.login_facility_confirm button:hover{
+    height: 44px;
+    width: 240px;
+    background-color:#f3f3f3;
+    color: #bfa0c8;
+    border: solid 2px  #bfa0c8;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login_facility_confirm button:active{
+    height: 44px;
+    width: 240px;
+    background-color:#f3f3f3;
+    color: #bfa0c8;
+    border: solid 2px  #bfa0c8;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 /*-------------Signup-----------------*/
 
@@ -221,9 +292,7 @@ li a:hover {
 .singup_form{
     width: 600px;
     height: 960px;
-    /* border: 2px solid red; */
     margin:20px auto;
-    /* padding-top: 40px; */
     background-color: #f3f3f3;
     text-align: center;
     border-radius: 5px;
@@ -235,13 +304,13 @@ li a:hover {
     color:#864a98;
     text-align: center;
 } */
-
 .signup_form_header p{
     font-size: 24px;
     font-weight: bold;
     color:#864a98;
     text-align: center;
-    padding: 40px; 
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 #hint_text{
@@ -278,8 +347,21 @@ li a:hover {
     color:white;
     margin-bottom: 30px;
     border-radius: 5px;
-
+    cursor: pointer;
 }
+.singup_create button:hover{
+    height: 44px;
+    width: 360px;
+    background-color: #f3f3f3;
+    border: solid 2px #bfa0c8;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #bfa0bf;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 .singup_facility_name{
     padding-left: 12%;
@@ -292,6 +374,7 @@ li a:hover {
     font-weight: bold;
     color:#864a98;
     text-align: left;
+    padding-bottom: 20px;
 }
 .singup_facility_name input{
     height: 50px;
@@ -314,6 +397,7 @@ li a:hover {
     font-weight: bold;
     color:#864a98;
     text-align: left;
+    padding-bottom: 20px;
 }
 .singup_facility_address input{
     height: 50px;
@@ -336,6 +420,7 @@ li a:hover {
     font-weight: bold;
     color:#864a98;
     text-align: left;
+    padding-bottom: 20px;
 }
 .singup_facility_abn input{
     height: 50px;
@@ -359,6 +444,7 @@ li a:hover {
     font-weight: bold;
     color:#864a98;
     text-align: left;
+    padding-bottom: 20px;
 }
 .singup_facility_passcode input{
     height: 50px;
@@ -382,6 +468,7 @@ li a:hover {
     font-weight: bold;
     color:#864a98;
     text-align: left;
+    padding-bottom: 20px;
 }
 .singup_facility_fastcode input{
     height: 50px;
@@ -395,22 +482,36 @@ li a:hover {
 .singup_facility_fastcode button {
     height: 44px;
     width: 100px;
-    background-color: white;
+    background-color: #f3f3f3;
     border: solid 2px;
     margin-left: 20px;
+    margin-bottom: 20px;
     font-size: 18px;
     color:#bfa0c8;
     border-radius: 5px;
+    cursor: pointer;
+}
+.singup_facility_fastcode button:hover {
+    height: 44px;
+    width: 100px;
+    background-color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-left: 20px;
+    font-size: 18px;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .singup_facility_fastcode button:active {
     height: 44px;
     width: 100px;
     background-color: #bfa0c8;
-    border: solid 2px;
+    border: solid 2px #bfa0c8;
     margin-left: 20px;
     font-size: 18px;
     color:white;
     border-radius: 5px;
+    cursor: pointer;
 }
 /*--------------Home------------------*/
 
@@ -426,6 +527,26 @@ li a:hover {
     color:white;
     background-color: #864a98;
     border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#home_login_btn:hover{
+    width: 200px;
+    height: 40px;
+    color:#864a98;
+    background-color: white;
+    border: solid 2px #864a98;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#home_login_btn:active{
+    width: 200px;
+    height: 40px;
+    color:#864a98;
+    background-color: white;
+    border: solid 2px #864a98;
+    border-radius: 5px;
+    cursor: pointer;
 }
 #home_facility{
     background-color: #f3f3f3;
@@ -462,6 +583,26 @@ li a:hover {
     color: white;
     border: 0px;
     background-color: #bfa0c8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#home_facility_btn:hover{
+    width: 200px;
+    height: 40px;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#home_facility_btn:active{
+    width: 200px;
+    height: 40px;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    cursor: pointer;
 }
 #home_facility_content{
     width: 400px;
@@ -579,6 +720,24 @@ li a:hover {
     color: white;
     border: 0px;
     background-color: #bfa0c8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#sponsors_rotaryclub_btn:hover{
+    width: 160px;
+    height: 40px;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    background-color: #f3f3f3;
+    cursor: pointer;
+}
+#sponsors_rotaryclub_btn:active{
+    width: 160px;
+    height: 40px;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    background-color: #f3f3f3;
+    cursor: pointer;
 }
 #sponsors_rotaryclub_title{
     width: 270px;
@@ -626,7 +785,28 @@ li a:hover {
     color: white;
     border: 0px;
     background-color: #bfa0c8;
+    border-radius: 5px;
+    cursor: pointer;
 }
+#sponsors_bakermckenzie_btn:hover{
+    width: 160px;
+    height: 40px;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#sponsors_bakermckenzie_btn:active{
+    width: 160px;
+    height: 40px;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 #sponsors_bakermckenzie_title{
     width: 270px;
     color:#864a98;
@@ -673,6 +853,27 @@ li a:hover {
     color: white;
     border: 0px;
     background-color: #bfa0c8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#sponsors_anu_btn:hover{
+    width: 160px;
+    height: 40px;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sponsors_anu_btn:active{
+    width: 160px;
+    height: 40px;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    cursor: pointer;
 }
 #sponsors_anu_title{
     width: 270px;
@@ -904,6 +1105,14 @@ li a:hover {
     background-color:#f3f3f3;
     margin-bottom: 10px;
     margin-left: 70px;
+}
+.profiles_display_content:hover{
+    width: 400px;
+    height: 120px;
+    background-color:#f3f3f3;
+    border: solid 2px #bfa0c8;
+    margin-bottom: 10px;
+    margin-left: 70px;
     cursor: pointer;
 }
 .profiles_display_content img{
@@ -931,6 +1140,29 @@ li a:hover {
     margin-top: 70px;
     font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
+}
+.profiles_create button:hover{
+    height: 44px;
+    width: 240px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.profiles_create button:active{
+    height: 44px;
+    width: 240px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .profiles_logout button{
     height: 44px;
@@ -942,7 +1174,19 @@ li a:hover {
     color:white;
     margin-bottom: 40px;
     border-radius: 5px;
-
+    cursor: pointer;
+}
+.profiles_logout button:hover{
+    height: 44px;
+    width: 240px;
+    background-color: white;
+    border: solid 2px #bfa0c8;
+    margin-top: 20px;
+    font-size: 18px;
+    color:#bfa0c8;;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 /*------------My Profile---------------*/
 .myprofile_container{
@@ -1015,6 +1259,16 @@ li a:hover {
     margin-top: 10px;
     cursor: pointer;
 }
+.myprofile_display_content:hover{
+    width: 400px;
+    height: 120px;
+    border: solid 2px #bfa0c8;
+    background-color:#f3f3f3;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
 .myprofile_display_content img{
     width: 100px;
     height: 100px;
@@ -1024,10 +1278,25 @@ li a:hover {
     width: 180px;
     height: 120px;
 }
+.myprofile_display_content p{
+    font-size: 18px;
+    color:#864a98;
+    font-weight: bold;
+}
 
 .myprofile_talk_to_sb_new{
     width: 400px;
     height: 120px;
+    background-color:#f3e6f7;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.myprofile_talk_to_sb_new:hover{
+    width: 400px;
+    height: 120px;
+    border:solid 2px #bfa0c8;
     background-color:#f3e6f7;
     margin-bottom: 10px;
     margin-left: 15px;
@@ -1050,13 +1319,6 @@ li a:hover {
     font-weight: bold;
 }
 
-
-
-.myprofile_display_content p{
-    font-size: 18px;
-    color:#864a98;
-    font-weight: bold;
-}
 
 .myprofile_addfriend{
     height: 50px;
@@ -1113,6 +1375,27 @@ li a:hover {
     margin-top: 70px;
     font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
+}
+#videocall_btn:hover{
+    height: 44px;
+    width: 255px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#videocall_btn:active{
+    height: 44px;
+    width: 255px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
 }
 #me_btn{
     height: 44px;
@@ -1123,8 +1406,28 @@ li a:hover {
     margin-top: 70px;
     font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
 }
-
+#me_btn:hover{
+    height: 44px;
+    width: 175px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#me_btn:active{
+    height: 44px;
+    width: 175px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+}
 
 /*----------------Me---------------------*/
 .me_container{
@@ -1210,13 +1513,45 @@ li a:hover {
     text-align: center;
     padding-top: 10px;
 }
+.me_display_content p:hover{
+    font-size: 18px;
+    color:white;
+    background-color:#e8dded;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+.me_display_content_logout{
+    width: 400px;
+    height: 50px;
+    background-color:#e8dded;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.me_display_content_logout p{
+    font-size: 18px;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+.me_display_content_logout p:hover{
+    font-size: 18px;
+    color: #864a98;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
 
 .me_switch{
     margin-left: 50px;
 }
 
 
-/*--------------Interests-----------------*/
+/*--------------Add Friends-----------------*/
 
 .add_friends_container{
     /* background: url('jack-finnigan-M9EctVUPrp4-unsplash.jpg') no-repeat center center fixed; */
@@ -1229,7 +1564,7 @@ li a:hover {
 
 .add_friends_form{
     width: 540px;
-    height: 840px;
+    height: 960px;
     /* border: 2px solid red; */
     margin:20px auto;
     text-align: center;
@@ -1303,8 +1638,9 @@ li a:hover {
     height: 140px;
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 15px;
+    margin-left: 15px;  
 }
+
 .add_friends_display_content img{
     width: 100px;
     height: 100px;
@@ -1313,7 +1649,13 @@ li a:hover {
 
 .add_friends_display_content td{
     width: 240px;
-    height: 160px;
+    height: 150px;
+    border: solid 2px white;
+}
+.add_friends_display_content td:hover{
+    width: 240px;
+    height: 150px;
+    border: solid 2px #bfa0c8;
 }
 .add_friends_display_content tr{
     padding-top: 40px;
@@ -1326,35 +1668,163 @@ li a:hover {
     text-align: center;
 }
 .add_friends_buttons{
-    margin-left: 120px;
+    margin-left: 110px;
 }
 .add_friends_buttons td{
-    width: 240px;
+    width: 160px;
 }
 #add_friends_refresh_btn{
     height: 36px;
     width: 140px;
-    background-color: white;
-    border: solid 2px;
-    border-color: #bfa0c8;
-    border-radius: 5px;
-    color: #bfa0c8;
+    background-color: #bfa0c8;
+    border: 0px;
+    color: white;
     margin-top: 40px;
+    margin-bottom: 40px;
     font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
+}
+#add_friends_refresh_btn:hover{
+    height: 36px;
+    width: 140px;
+    background-color: white;
+    border: solid 2px #bfa0c8;
+    color: #bfa0c8;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#add_friends_refresh_btn:active{
+    height: 36px;
+    width: 140px;
+    background-color: white;
+    border: solid 2px #bfa0c8;
+    color: #bfa0c8;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 #add_friends_add_btn{
     height: 36px;
     width: 140px;
-    background-color: white;
-    border:solid 2px;
-    border-color: #bfa0c8;
-    color: #bfa0c8;
+    background-color: #bfa0c8;
+    border:0px;
+    color: white;
     margin-top: 40px;
+    margin-bottom: 40px;
     font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
+}
+#add_friends_add_btn:hover{
+    height: 36px;
+    width: 140px;
+    background-color: white;
+    border: solid 2px #bfa0c8;
+    color: #bfa0c8;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#add_friends_add_btn:active{
+    height: 36px;
+    width: 140px;
+    background-color: white;
+    border: solid 2px #bfa0c8;
+    color: #bfa0c8;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
+.add_friends_search{
+    margin-left: 65px;
+}
+.add_friends_search input{
+    height: 32px;
+    width: 280px;
+    border: solid 2px #bfa0c8;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+}
+#add_friends_search_button {
+    height: 36px;
+    width: 90px;
+    background-color: white;
+    border: solid 2px #bfa0c8;
+    margin-left: 20px;
+    font-size: 18px;
+    color:#bfa0c8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#add_friends_search_button:active{
+    height: 36px;
+    width: 90px;
+    background-color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-left: 20px;
+    font-size: 18px;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#add_friends_search_button:hover{
+    height: 36px;
+    width: 90px;
+    background-color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-left: 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#add_friends_search_button:active{
+    height: 36px;
+    width: 90px;
+    background-color: #bfa0c8;
+    border: solid 2px;
+    margin-left: 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add_friends_search_content{
+    width: 400px;
+    height: 120px;
+    background-color:#f3f3f3;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.add_friends_search_content img{
+    width: 100px;
+    height: 100px;
+}
+
+.add_friends_search_content td{
+    width: 180px;
+    height: 120px;
+}
+.add_friends_search_content p{
+    font-size: 18px;
+    color:#864a98;
+    font-weight: bold;
+}
 
 
 
@@ -1463,6 +1933,18 @@ li a:hover {
     font-size: 18px;
     color:#bfa0c8;
     border-radius: 5px;
+    cursor: pointer;
+}
+.edit_name button:hover {
+    height: 44px;
+    width: 80px;
+    background-color: #bfa0c8;
+    border: solid 2px;
+    margin-left: 20px;
+    font-size: 18px;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .edit_name button:active {
     height: 44px;
@@ -1473,6 +1955,7 @@ li a:hover {
     font-size: 18px;
     color:white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .edit_switch{
@@ -1666,7 +2149,13 @@ li a:hover {
 
 .interests_display_content td{
     width: 240px;
-    height: 160px;
+    height: 150px;
+    border:solid 2px white;
+}
+.interests_display_content td:hover{
+    width: 240px;
+    height: 150px;
+    border:solid 2px #bfa0c8;
 }
 .interests_display_content tr{
     padding-top: 40px;
@@ -1691,12 +2180,52 @@ li a:hover {
     font-size: 18px;
     border-radius: 5px;
 }
+#remove_btn:hover{
+    height: 44px;
+    width: 215px;
+    background-color:white;
+    color:  #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#remove_btn:active{
+    height: 44px;
+    width: 215px;
+    background-color:white;
+    color:  #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+}
 #more_btn{
     height: 44px;
     width: 215px;
     background-color: #bfa0c8;
     color: white;
     border: 0px;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#more_btn:hover{
+    height: 44px;
+    width: 215px;
+    background-color:white;
+    color:  #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#more_btn:active{
+    height: 44px;
+    width: 215px;
+    background-color:white;
+    color:  #bfa0c8;
+    border: solid 2px #bfa0c8;
     margin-top: 70px;
     font-size: 18px;
     border-radius: 5px;
@@ -1792,7 +2321,13 @@ li a:hover {
 
 .more_interests_display_content td{
     width: 240px;
-    height: 160px;
+    height: 150px;
+    border: solid 2px white;
+}
+.more_interests_display_content td:hover{
+    width: 240px;
+    height: 150px;
+    border: solid 2px #bfa0c8;
 }
 .more_interests_display_content tr{
     padding-top: 40px;
@@ -1817,6 +2352,26 @@ li a:hover {
     font-size: 18px;
     border-radius: 5px;
 }
+#more_interests_add_btn:hover{
+    height: 44px;
+    width: 215px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#more_interests_add_btn:active{
+    height: 44px;
+    width: 215px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+}
 #more_interests_refresh_btn{
     height: 44px;
     width: 215px;
@@ -1827,7 +2382,26 @@ li a:hover {
     font-size: 18px;
     border-radius: 5px;
 }
-
+#more_interests_refresh_btn:hover{
+    height: 44px;
+    width: 215px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#more_interests_refresh_btn:active{
+    height: 44px;
+    width: 215px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+}
 
 /*--------------Talk to My Interests-----------------*/
 
@@ -1872,7 +2446,16 @@ li a:hover {
     border-radius: 5px;
     cursor: pointer;
 }
-
+.talk_to_my_interests_add button:hover{
+    height: 36px;
+    width: 100px;
+    background-color: #bfa0c8;
+    color: white;
+    border: solid 2px #bfa0c8;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
 .talk_to_my_interests_add button:active{
     height: 36px;
     width: 100px;
@@ -1885,7 +2468,6 @@ li a:hover {
     
 }
 
-
 .talk_to_my_interests_display_header{
     margin-top: 30px;
 }
@@ -1894,6 +2476,10 @@ li a:hover {
     font-weight: bold;
     color:#864a98;
     text-align: center;
+}
+
+.talk_to_my_interests_table p{
+    width: 370px;
 }
 
 .talk_to_my_interests_display_container{
@@ -1947,7 +2533,13 @@ li a:hover {
 
 .talk_to_my_interests_display_content td{
     width: 240px;
-    height: 160px;
+    height: 150px;
+    border: solid 2px white
+}
+.talk_to_my_interests_display_content td:hover{
+    width: 240px;
+    height: 150px;
+    border: solid 2px #bfa0c8;
 }
 .talk_to_my_interests_display_content tr{
     padding-top: 40px;
@@ -1971,6 +2563,29 @@ li a:hover {
     margin-top: 70px;
     font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
+}
+#talk_to_my_interests_btn:hover{
+    height: 44px;
+    width: 215px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#talk_to_my_interests_btn:active{
+    height: 44px;
+    width: 215px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 #talk_to_other_interests_btn{
     height: 44px;
@@ -1981,8 +2596,30 @@ li a:hover {
     margin-top: 70px;
     font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
 }
-
+#talk_to_other_interests_btn:hover{
+    height: 44px;
+    width: 215px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#talk_to_other_interests_btn:active{
+    height: 44px;
+    width: 215px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 /*--------------Talk to More Interests-----------------*/
 
@@ -2011,7 +2648,9 @@ li a:hover {
     color:#864a98;
     text-align: center;
 }
-
+.talk_to_more_interests_table p{
+    width: 370px;
+}
 .talk_to_more_interests_add_refresh{
     margin-top: 20px;
     margin-left: 270px;
@@ -2022,9 +2661,31 @@ li a:hover {
 .talk_to_more_interests_add_refresh button{
     height: 36px;
     width: 100px;
-    background-color: #f3f3f3;
+    background-color: white;
     color: #bfa0c8;
     border: solid 2px #bfa0c8;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.talk_to_more_interests_add_refresh button:hover{
+    height: 36px;
+    width: 100px;
+    background-color:  #bfa0c8;
+    color:white;
+    border: solid 2px  #bfa0c8;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.talk_to_more_interests_add_refresh button:active{
+    height: 36px;
+    width: 100px;
+    background-color:  #bfa0c8;
+    color:white;
+    border: solid 2px  #bfa0c8;
     margin-top: 10px;
     font-size: 18px;
     border-radius: 5px;
@@ -2105,7 +2766,13 @@ li a:hover {
 
 .talk_to_more_interests_display_content td{
     width: 240px;
-    height: 160px;
+    height: 150px;
+    border:solid 2px white;
+}
+.talk_to_more_interests_display_content td:hover{
+    width: 240px;
+    height: 150px;
+    border:solid 2px #bfa0c8;
 }
 .talk_to_more_interests_display_content tr{
     padding-top: 40px;
@@ -2201,6 +2868,29 @@ li a:hover {
     margin-top: 70px;
     font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
+}
+#rate_call_submit_btn:hover{
+    height: 44px;
+    width: 215px;
+    background-color:white;
+    color:  #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#rate_call_submit_btn:active{
+    height: 44px;
+    width: 215px;
+    background-color:white;
+    color:  #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 #rate_call_comment_btn{
     height: 44px;
@@ -2211,8 +2901,30 @@ li a:hover {
     margin-top: 20px;
     font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
 }
-
+#rate_call_comment_btn:hover{
+    height: 44px;
+    width: 215px;
+    background-color:white;
+    color:  #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#rate_call_comment_btn:active{
+    height: 44px;
+    width: 215px;
+    background-color:white;
+    color:  #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 /*--------------Comment Call-----------------*/
 
@@ -2227,8 +2939,7 @@ li a:hover {
 
 .comment_call_form{
     width: 540px;
-    height: 640px;
-    /* border: 2px solid red; */
+    height: 580px;
     margin:20px auto;
     text-align: center;
     border:solid 2px;
@@ -2271,51 +2982,34 @@ li a:hover {
     background-color: #bfa0c8;
     color: white;
     border: 0px;
-    margin-top: 70px;
+    margin-top: 50px;
     font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
 }
-
-/*--------------Video Call-----------------*/
-
-.comment_call_container{
-    /* background: url('jack-finnigan-M9EctVUPrp4-unsplash.jpg') no-repeat center center fixed; */
-
-    height: 800px;
-    /* background-color: #f3e6f7; */
-    /* padding: 50px; */
-    /* background-color: azure; */
-}
-
-.comment_call_form{
-    width: 540px;
-    height: 800px;
-    /* border: 2px solid red; */
-    margin:20px auto;
-    margin-top: 60px;
-    text-align: center;
-    border:solid 2px;
-    border-color:#864a98;
-    border-radius: 5px;
-}
-.comment_call_form_header p{
-    font-size: 28px;
-    font-weight: bold;
-    color:#864a98;
-    text-align: center;
-}
-
-
-#comment_call_submit_btn{
+#comment_call_submit_btn:hover{
     height: 44px;
     width: 215px;
-    background-color: #bfa0c8;
-    color: white;
-    border: 0px;
-    margin-top: 70px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 50px;
     font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
 }
+#comment_call_submit_btn:hover{
+    height: 44px;
+    width: 215px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 /*------------Add Profiles---------------*/
 
@@ -2371,13 +3065,12 @@ li a:hover {
     font-size: 18px;
     border-radius: 5px;
     margin-bottom: 20px;
+    outline-color: #bfa0c8;
 }
 
 .addprofiles_interests_table{
-    margin-left: 50px;
-
+    margin-left: 45px;
 }
-
 .addprofiles_interests_table tr{
     width: 480px;
     height: 80px;
@@ -2386,6 +3079,20 @@ li a:hover {
 .addprofiles_interests_table td{
     width: 140px;
     height: 120px;
+    border: solid 2px white;
+    cursor: pointer;
+}
+.addprofiles_interests_table td:hover{
+    width: 140px;
+    height: 120px;
+    border:solid 2px #bfa0bf;
+    cursor: pointer;
+}
+.addprofiles_interests_table td:visited{
+    width: 140px;
+    height: 120px;
+    border:solid 2px #bfa0bf;
+    cursor: pointer;
 }
 .addprofiles_interests_table img{
     width: 120px;
@@ -2394,6 +3101,7 @@ li a:hover {
 
 #addprofiles_interests_tag p{
     font-size: 14px;
+    color: #864a98;
 }
 
 .addprofiles_interests_btn_table{
@@ -2412,13 +3120,30 @@ li a:hover {
 .addprofiles_interests_btn_table button{
     width: 160px;
     height: 30px;
-    color: #864a98;
-    border: solid 1px;
-    border-color: #864a98;
+    color: #bfa0c8;
+    border: solid 1px #bfa0c8;
     border-radius: 5px;
     background-color: #f3f3f3;
+    cursor: pointer;
 }
-
+.addprofiles_interests_btn_table button:hover{
+    width: 160px;
+    height: 30px;
+    color: white;
+    border: solid 1px #bfa0c8;
+    border-radius: 5px;
+    background-color: #bfa0c8;
+    cursor: pointer;
+}
+.addprofiles_interests_btn_table button:active{
+    width: 160px;
+    height: 30px;
+    color: white;
+    border: solid 1px #bfa0c8;
+    border-radius: 5px;
+    background-color: #bfa0c8;
+    cursor: pointer;
+}
 
 .addprofiles_add button{
     height: 44px;
@@ -2429,6 +3154,18 @@ li a:hover {
     margin-top: 30px;
     font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
+}
+.addprofiles_add button:hover{
+    height: 44px;
+    width: 240px;
+    background-color: white;
+    color: #bfa0c8;
+    border: solid 2px #bfa0c8;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 /* .addprofiles_logout button{
     height: 44px;
@@ -2442,3 +3179,46 @@ li a:hover {
     border-radius: 5px;
 
 } */
+
+/*--------------Videocall-----------------*/
+
+.videocall_container{
+    /* background: url('jack-finnigan-M9EctVUPrp4-unsplash.jpg') no-repeat center center fixed; */
+
+    height: 800px;
+    /* background-color: #f3e6f7; */
+    /* padding: 50px; */
+    /* background-color: azure; */
+}
+
+.videocall_form{
+    width: 540px;
+    height: 840px;
+    /* border: 2px solid red; */
+    margin:50px auto;
+    text-align: center;
+    border:solid 2px;
+    border-color:#864a98;
+    border-radius: 5px;
+}
+.videocall_page img{
+    width: 500px;
+}
+.videocall_form_header p{
+    font-size: 28px;
+    font-weight: bold;
+    color:#864a98;
+    text-align: center;
+}
+
+#videocall_hangup_btn{
+    height: 44px;
+    width: 215px;
+    background-color: #bfa0c8;
+    color: white;
+    border: 0px;
+    margin-top: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}

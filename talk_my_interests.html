@@ -20,7 +20,16 @@
 
     <div class="talk_to_my_interests_container">        
         <div class="talk_to_my_interests_form">
-            <div class="talk_to_my_interests_form_header"><p>I wanna talk about...</p></div>
+
+            <div class="talk_to_my_interests_form_header">
+                <table class="talk_to_my_interests_table">
+                    <tr>
+                        <td><div class="back_button" onclick="goBack()"><img src="./image/back_icon.png" style="height: 30px;"></div></td>
+                        <td><p>I wanna talk about...</p></td>
+                    </tr>
+                </table>
+            </div>
+
 
             <hr>
 
@@ -123,7 +132,7 @@
     </div>
 
     <script>
-        function talkToSbNew(){
+        function goBack(){
             window.location.href="my_profile.html";
         }
 
