@@ -1062,30 +1062,40 @@ li a:hover {
     height: 50px;
     margin-bottom: 30px;
 }
-.myprofile_addfriend input{
+/* .myprofile_addfriend input{
     height: 38px;
     width: 330px;
     border: solid 2px #bfa0c8;
     font-size: 18px;
     border-radius: 5px;
     outline: none;
-}
+} */
 .myprofile_addfriend button {
-    height: 42px;
+    /* height: 42px;
     width: 70px;
     background-color: white;
     border: solid 2px;
     margin-left: 20px;
     font-size: 18px;
     color:#bfa0c8;
+    border-radius: 5px; */
+    height: 42px;
+    width: 430px;
+    background-color: white;
+    border: solid 2px;
+    margin-left: 6px;
+    margin-top: 15px;
+    font-size: 18px;
+    color:#bfa0c8;
     border-radius: 5px;
 }
 .myprofile_addfriend button:active {
     height: 42px;
-    width: 70px;
+    width: 430px;
     background-color: #bfa0c8;
     border: solid 2px;
-    margin-left: 20px;
+    margin-left: 6px;
+    margin-top: 15px;
     font-size: 18px;
     color:white;
     border-radius: 5px;
@@ -1702,7 +1712,7 @@ li a:hover {
 .talk_to_my_interests_add button{
     height: 36px;
     width: 100px;
-    background-color: #f3f3f3;
+    background-color: white;
     color: #bfa0c8;
     border: solid 2px #bfa0c8;
     margin-top: 10px;
