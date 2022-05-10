@@ -3222,3 +3222,83 @@ li a:hover {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/*---------------Reset Password----------*/
+/*--------------Login-------------------*/
+.reset_password_container{
+    /* background: url('jack-finnigan-M9EctVUPrp4-unsplash.jpg') no-repeat center center fixed; */
+
+    height: 640px;
+    /* background-color: #f3e6f7; */
+    /* padding: 50px; */
+    /* background-color: azure; */
+}
+
+
+.reset_password_form{
+    width: 540px;
+    height: 540px;
+    margin:20px auto;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.reset_password_header p{
+    font-size: 28px;
+    font-weight: bold;
+    color:#864a98;
+    text-align: center;
+    padding: 40px; 
+}
+
+.reset_password_form input{
+    /* padding: 10px; */
+    height: 50px;
+    width: 360px;
+    border: 0px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline-color: #bfa0c8;
+    /* margin-bottom: 10px; */
+}
+
+
+
+.reset_password_confirm button{
+    height: 44px;
+    width: 240px;
+    background-color: #bfa0c8;
+    color: white;
+    border: 0px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reset_password_confirm button:hover{
+    height: 44px;
+    width: 240px;
+    background-color:#f3f3f3;
+    color: #bfa0c8;
+    border: solid 2px  #bfa0c8;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reset_password_confirm button:active{
+    height: 44px;
+    width: 240px;
+    background-color:#f3f3f3;
+    color: #bfa0c8;
+    border: solid 2px  #bfa0c8;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
