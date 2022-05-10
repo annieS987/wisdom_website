@@ -20,7 +20,18 @@
 
     <div class="more_interests_container">        
         <div class="more_interests_form">
-            <div class="more_interests_form_header"><p>Add Interests</p></div>
+
+
+            <div class="more_interests_form_header">
+                <table class="=more_interests_form_header_table">
+                    <tr>
+                        <td><div class="back_button" onclick="goBack()"><img src="./image/back_icon.png" style="height: 30px;"></div></td>
+                        <td><p>Add Interests</p></td>
+                    </tr>
+                </table>
+            </div>
+
+
 
             <hr>
 
@@ -121,8 +132,8 @@
     </div>
 
     <script>
-        function talkToSbNew(){
-            window.location.href="my_profile.html";
+        function goBack(){
+            window.location.href="interests.html";
         }
 
     </script>

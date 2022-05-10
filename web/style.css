@@ -1215,6 +1215,149 @@ li a:hover {
     margin-left: 50px;
 }
 
+
+/*--------------Interests-----------------*/
+
+.add_friends_container{
+    /* background: url('jack-finnigan-M9EctVUPrp4-unsplash.jpg') no-repeat center center fixed; */
+
+    height: 1000px;
+    /* background-color: #f3e6f7; */
+    /* padding: 50px; */
+    /* background-color: azure; */
+}
+
+.add_friends_form{
+    width: 540px;
+    height: 840px;
+    /* border: 2px solid red; */
+    margin:20px auto;
+    text-align: center;
+    border:solid 2px;
+    border-color:#864a98;
+    border-radius: 5px;
+}
+.add_friends_form_header {
+    height: 40px;
+    width: 100px;
+}
+.add_friends_back_button{
+    margin-top: 20px;
+    cursor: pointer;
+}
+/* .add_friends_form_header p{
+    width: 370px;
+    font-size: 28px;
+    font-weight: bold;
+    color:#864a98;
+    text-align: center;
+} */
+.add_friends_display_header{
+    margin-top: 30px;
+}
+.add_friends_display_header p{
+    font-size: 18px;
+    font-weight: bold;
+    color:#864a98;
+    text-align: center;
+}
+
+.add_friends_display_container{
+    width: 440px;
+    overflow-y:auto;
+    overflow-x: hidden;
+    height: 260px;
+    border: solid 2px #bfa0c8;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.add_friends_display_container::-webkit-scrollbar{
+    width: 10px;
+}
+.add_friends_display_container::-webkit-scrollbar-thumb{
+    background-color: #bfa0c8;
+    border-radius: 5px;
+}
+.add_friends_display_container::-webkit-scrollbar-button{
+    display: none;
+}
+.add_friends_display_container::-webkit-scrollbar-track{
+    background-color: #f3f3f3;
+}
+
+
+.add_friends_display{
+    height: 480px;
+    width: 400px;
+    margin-left: 70px;
+    border:dotted;
+    border-radius: 5px;
+    border-width:2px;
+    border-color: #864a98;
+}
+
+.add_friends_display_content{
+    width: 400px;
+    height: 140px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.add_friends_display_content img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.add_friends_display_content td{
+    width: 240px;
+    height: 160px;
+}
+.add_friends_display_content tr{
+    padding-top: 40px;
+}
+
+.add_friends_display_content p{
+    font-size: 14px;
+    color:#864a98;
+    font-weight: bold;
+    text-align: center;
+}
+.add_friends_buttons{
+    margin-left: 120px;
+}
+.add_friends_buttons td{
+    width: 240px;
+}
+#add_friends_refresh_btn{
+    height: 36px;
+    width: 140px;
+    background-color: white;
+    border: solid 2px;
+    border-color: #bfa0c8;
+    border-radius: 5px;
+    color: #bfa0c8;
+    margin-top: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#add_friends_add_btn{
+    height: 36px;
+    width: 140px;
+    background-color: white;
+    border:solid 2px;
+    border-color: #bfa0c8;
+    color: #bfa0c8;
+    margin-top: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+
+
 /*--------------Edit Profile--------------*/
 
 .edit_container{
@@ -1237,10 +1380,16 @@ li a:hover {
     border-radius: 5px;
 }
 .edit_form_header p{
+    width: 370px;
     font-size: 28px;
     font-weight: bold;
     color:#864a98;
     text-align: center;
+}
+
+.back_button{
+    width: 80px;
+    cursor: pointer;
 }
 
 .edit_display_container{
@@ -1352,6 +1501,7 @@ li a:hover {
     border-radius: 5px;
 }
 .blockedlist_form_header p{
+    width: 370px;
     font-size: 28px;
     font-weight: bold;
     color:#864a98;
@@ -1440,7 +1590,7 @@ li a:hover {
 
 .interests_form{
     width: 540px;
-    height: 800px;
+    height: 840px;
     /* border: 2px solid red; */
     margin:20px auto;
     text-align: center;
@@ -1449,6 +1599,7 @@ li a:hover {
     border-radius: 5px;
 }
 .interests_form_header p{
+    width: 370px;
     font-size: 28px;
     font-weight: bold;
     color:#864a98;
@@ -1574,6 +1725,7 @@ li a:hover {
     border-radius: 5px;
 }
 .more_interests_form_header p{
+    width: 370px;
     font-size: 28px;
     font-weight: bold;
     color:#864a98;
